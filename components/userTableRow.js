@@ -18,7 +18,7 @@ export default class UserTableRow extends Component{
             .catch((error)=>{
                 console.log(error);
             });
-
+  
     }
     render(){
         return(

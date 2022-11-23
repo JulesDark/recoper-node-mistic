@@ -28,33 +28,33 @@ export default class CreateUser extends Component{
         };
     }
 
-    onChangeUserF_name(e){
-        this.setState({f_name: e.target.value});
-    }
+        onChangeUserF_name(e){
+            this.setState({f_name: e.target.value});
+        }
 
-    onChangeUserS_name(e){
-        this.setState({s_name: e.target.value});
-    }
+            onChangeUserS_name(e){
+            this.setState({s_name: e.target.value});
+        }
 
-    onChangeUserF_lastname(e){
-        this.setState({f_lastname: e.target.value});
-    }
+        onChangeUserF_lastname(e){
+            this.setState({f_lastname: e.target.value});
+        }
 
-    onChangeUserS_lastname(e){
-        this.setState({s_lastname: e.target.value});
-    }
+        onChangeUserS_lastname(e){
+            this.setState({s_lastname: e.target.value});
+        }
 
-    onChangeUserEmail(e){
-        this.setState = ({email: e.target.value})
-    }
+        onChangeUserEmail(e){
+            this.setState = ({email: e.target.value})
+        }
 
-    onChangeUseruser(e){
-        this.setState = ({user: e.target.value})
-    }
+        onChangeUseruser(e){
+            this.setState = ({user: e.target.value})
+        }
 
-    onChangeUserPassword(e){
-        this.setState = (this.setState)
-    }
+        onChangeUserPassword(e){
+            this.setState = (this.setState)
+        }
 
     onSubmit(e){
         e.preventDefault();
@@ -76,7 +76,7 @@ export default class CreateUser extends Component{
     }
 
     render(){
-        return (
+        return (    
             <div className="form-wrapper">
                 <Form onSubmit={this.onSubmit}>
                     <Form.Group controlId="f_name">
@@ -150,3 +150,4 @@ export default class CreateUser extends Component{
         );
     }
 }
+
